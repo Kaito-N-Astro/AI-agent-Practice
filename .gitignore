@@ -1,0 +1,7 @@
+# Python bytecode
+*.pyc
+__pycache__/
+.DS_Store
+util_tools/*.tex
+util_tools/*.pdf
+util_tools/*.synctex.gz
