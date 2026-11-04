@@ -1,0 +1,15 @@
+{
+  "_notice": "ILLUSTRATIVE ONLY / UNVERIFIED / NOT A RUNTIME SCHEMA. Do not activate by renaming.",
+  "conceptual_hooks": [
+    {
+      "event_placeholder": "<session-start event supported by your target>",
+      "action_description": "Prompt the agent to read AGENTS.md and memory files through a supported context mechanism.",
+      "command_placeholder": "<implement and verify for the selected runtime>"
+    },
+    {
+      "event_placeholder": "<session-end event supported by your target>",
+      "action_description": "Request a reviewed handoff update if supported; an event alone cannot summarize the session.",
+      "command_placeholder": "<implement and verify for the selected runtime>"
+    }
+  ]
+}
